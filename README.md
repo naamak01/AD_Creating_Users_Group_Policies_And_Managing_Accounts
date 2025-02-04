@@ -147,15 +147,25 @@ The user can now log into client-1, so we'll do that and once we are logged in w
 
 ![image](https://github.com/user-attachments/assets/3f17c1d8-3539-4edb-a854-8966f52a4f73)
 
+![image](https://github.com/user-attachments/assets/a333c4c5-da21-46cb-aa57-b7175e715f7d)
+
+This is because we are not an admin. Not to worry, we don't need to sign out of this whole client and sign in as Jane (our admin). We already know her credentials. We just need to close out of this window and open it again, but this time, as an administrator. It will have a pop-up asking for admin credentials:
+
 ![image](https://github.com/user-attachments/assets/e9f09409-01f0-4fa8-bbf9-eefebaa4982e)
 
 ![image](https://github.com/user-attachments/assets/60aba427-b514-4af7-9bfd-8ae23b16814f)
 
+Now, if we navigate back to the security log page, we can view them:
 
+![image](https://github.com/user-attachments/assets/0401022e-ae29-4c2a-927e-b241bacdd5ec)
 
+Here we can see a bunch of different information like successful and failed log on attempts, who attempted them and from what IP address, along with the date and time they happened:
 
+![image](https://github.com/user-attachments/assets/e4422dc9-5c6e-4431-933c-c4818f1e6963)
 
+## Active Directory: Creating Users, Group Policy and Managing Accounts in Azure is Now Complete
 
+**We've successfully configured Remote Desktop for non-administrative users, automated user creation with PowerShell, and managed group policies. Additionally, we covered account lockouts and log monitoring to simulate a real-life IT environment!**
 
 
 
